@@ -1,0 +1,17 @@
+.flex {height: 100%;width: 100%;display: flex;flex-flow: column;overflow: auto;}
+.content {flex: 1;width: 100%;display: flex;flex-flow: column;overflow: auto}
+/*top*/
+.water-charts {height: 60%;width: 100%;display: flex;flex-flow: column;}
+.water-charts .box {flex: 1;display: flex;flex-flow: column;margin-bottom: 7px;}
+.water-charts .box-body {flex: 1;display: flex;flex-flow: column;}
+.water-charts-select {display: inline-flex;justify-content: flex-start; margin-bottom: 10px;height: 30px;width: 100%;}
+.select-campus {width: 15%;}
+.water-charts-line {flex: 1;display: flex;flex-flow: column;border: 1px solid skyblue;}
+/*bottom*/
+.water-table {flex: 1;display: flex;flex-flow: column;}
+.water-table .box {flex: 1;display: flex;flex-flow: column;margin-bottom: 0px;}
+.water-table .box-body {flex: 1;}
+.water-table-data {height: 100%;border: 1px solid skyblue;}
+.el-button {position: absolute;right: 5px;top: 7px;}
+.el-button--mini, .el-button--mini .is-round {padding: 5px 20px;}
+.radio-select {margin-left: 50px;}

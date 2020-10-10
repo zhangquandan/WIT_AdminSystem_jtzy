@@ -1,0 +1,14 @@
+.flex {height: 100%;width: 100%;display: flex;flex-flow: column;overflow: auto;}
+.content {flex: 1;width: 100%;display: flex;flex-flow: column;overflow: auto}
+/*first-row*/
+.primary-meter {height: 22%;width: 100%;display: flex;flex-flow: column;margin-bottom: 7px;}
+.primary-meter .box-body {flex: 1;}
+/*second-row*/
+.meter-data {flex: 1;width: 100%;display: flex;flex-flow: column;margin-bottom: 0px;}
+.meter-data .box-header {position: relative;}
+.box-header .el-button {position: absolute;right: 5px;top: 5px;}
+.meter-data .box-body {flex: 1;display: flex;flex-flow: column;}
+.meter-chart {height: 50%;width: 100%;border: 1px solid lightskyblue;margin-top: 10px;margin-bottom: 10px;}
+.meter-table {flex: 1;width: 100%;border: 1px solid lightskyblue;padding: 5px;}
+/*.radio-select {margin-left: 30px;}*/
+

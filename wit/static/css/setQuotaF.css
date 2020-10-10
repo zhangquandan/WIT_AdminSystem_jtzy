@@ -1,0 +1,17 @@
+.flex {height: 100%;width: 100%;display: flex;flex-flow: column;overflow: auto;}
+.content {flex: 1;width: 100%;display: flex;flex-flow: row;overflow: auto}
+.el-date-editor.el-input,.el-date-editor.el-input__inner {width: 100px;}
+  /*quota*/
+.quota {width: 50%;height: 100%;margin-bottom: 0px;display: flex;flex-flow: column;}
+.quota .box-body {flex: 1;max-height: calc(100% - 36px);display: flex;flex-flow: column;padding-bottom: 10px;}
+.select-quota {display: flex;justify-content: space-between;}
+/*.search-year {margin-left: 25px;}*/
+/*.set-quota {margin-left: 25px;}*/
+.quota-table {width: 100%;height: 300px;margin-top: 10px;}
+.quota-chart {flex: 1;width: 100%;margin-top: 5px;display: flex;flex-flow: column;}
+/*history*/
+.history {width: calc(50% - 7px);height: 100%;margin-left: 7px;margin-bottom: 0px;display: flex;flex-flow: column;}
+.history .box-body {flex: 1;max-height: calc(100% - 36px);display: flex;flex-flow: column;padding-bottom: 10px;}
+.select-history {display: flex;justify-content: space-between;}
+.history-table {width: 100%;height: 300px;margin-top: 5px;}
+.history-chart {flex: 1;width: 100%;margin-top: 5px;display: flex;flex-flow: column;}

@@ -1,0 +1,6 @@
+.flex {height: 100%;width: 100%;display: flex;flex-flow: column;max-height: 100%;overflow: auto;}
+.content {flex: 1;width: 100%;display: flex;flex-flow: column;max-height: 100%;}
+.box {flex: 1;display: flex;flex-flow: column;margin-bottom: 0px;max-height: 100%;}
+.box-body {flex: 1;display: flex;flex-flow:column;max-height: calc(100% - 36px);}
+.select-row {width: 100%;display: flex;flex-flow: row;justify-content: space-between;padding-bottom: 5px;}
+.table-row {width: 100%;border: 1px solid lightskyblue;flex: 1;max-height: calc(100% - 42px)}

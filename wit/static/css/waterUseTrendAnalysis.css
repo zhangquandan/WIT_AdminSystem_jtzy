@@ -1,0 +1,9 @@
+.flex {height: 100%;width: 100%;display: flex;flex-flow: column;overflow: auto;}
+.content {flex: 1;width: 100%;display: flex;flex-flow: column;overflow: auto}
+.box {flex: 1;width: 100%;display: flex;flex-flow: column;margin-bottom: 0px;}
+.box-body {flex: 1;width: 100%;display: flex;flex-flow: column;}
+.select-date {display: flex;justify-content: flex-start;position: relative;}
+.trend-date {margin-left: 50px;}
+.select-date .el-button {position: absolute;right: 10px;}
+.trend-chart {height: 70%;width: 100%;margin-bottom: 10px;border: 1px solid skyblue;margin-top: 10px;}
+.trend-table {flex: 1;border: 1px solid skyblue;}

@@ -1,0 +1,38 @@
+.content {
+  display:flex;
+  flex-flow: column;
+  width:100%;
+  flex:1;
+  /* background-color: greenyellow;*/
+}
+.tb{
+  flex:1;
+  display: flex;
+  flex-direction:column;
+}
+.flex {
+  display:flex;
+  flex-flow:column;
+  height:100%;
+  overflow-y: auto;
+}
+
+/*waterMonitoring/TotalWaterMeterOperationMonitoring.vue*/
+.content .rw {
+  flex:1;
+  /*background-color: #b9ff55;*/
+}
+.content .rw .col-xs-6{
+  height:100%;
+  display: flex;
+  flex-flow:column;
+}
+.content .rw .col-xs-6 .box{
+  height:100%;
+  display:flex;
+  flex-flow:column;
+}
+.content .rw .col-xs-6 .box .box-body{
+  flex:1;
+}
+

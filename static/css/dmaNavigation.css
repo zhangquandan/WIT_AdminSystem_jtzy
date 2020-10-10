@@ -1,0 +1,16 @@
+.flex {height: 100%;width: 100%;display: flex;flex-flow: column;overflow: auto;}
+.content {flex: 1;width: 100%;display: flex;flex-flow: column;overflow: auto}
+.navigation {flex: 1;display: flex;flex-flow: column;margin-bottom: 0px;}
+.navigation > .box-body {flex: 1;display: flex;flex-flow: column;padding: 0px;}
+.navigation > .box-body {padding-top: 10px;background: rgb(208,236,249);}
+.navigation .el-radio-group:first-child {margin-left: 2px;}
+.navigation .el-radio-group:last-child {margin-right: 2px;}
+.navigation-radio {width: 100%;display: inline-flex;justify-content: space-between;margin-bottom: 3px;}
+.navigation-area {flex: 1;width:100%;display: inline-flex;justify-content: space-between;}
+.wu-chang {height: 100%;width: 50%;display: flex; flex-flow:column;}
+.liu-fang {height: 100%;width: 49%;display: flex; flex-flow:column;}
+.wu-chang .box {flex: 1;width: 100%;display: flex;flex-flow: column;margin-bottom: 0px;}
+.liu-fang .box {flex: 1;width: 100%;display: flex;flex-flow: column;margin-bottom: 0px;}
+.wu-chang .box-body {flex: 1;}
+.liu-fang .box-body {flex: 1;}
+.area-map {height: 100%;width: 100%;}
