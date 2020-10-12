@@ -40,8 +40,6 @@
     import Building from "./quotaWaterSaving/Building";
     import Region from "./quotaWaterSaving/Region";
     import TotalRegion from "./quotaWaterSaving/TotalRegion";
-    import axios from 'axios';
-    import {request} from "../../js/request.js";
 
     export default {
       components: {

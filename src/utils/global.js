@@ -5,8 +5,8 @@
 * */
 
 //api请求的IP和端口号
-
-export const baseUrl = 'http://47.110.33.227:8280/'
+export const baseUrl = "/api"
+// export const baseUrl = 'http://47.110.33.227:8280/'
 export default {
   baseUrl
 }

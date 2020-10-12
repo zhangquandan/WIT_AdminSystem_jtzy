@@ -199,7 +199,6 @@
   import SelectAlarmType from "./alarmMessage/SelectAlarmType";
   import SelectTimes from "./alarmMessage/SelectTimes";
   import SelectStatus from "./alarmMessage/SelectStatus";
-  //import {request} from "../../js/request.js";
   import { export2Excel } from '../../js/utils';
 
   export default {
