@@ -29,25 +29,25 @@
                   <img class="wc-back-image" src="../../../static/images/WC.png" alt="">
                   <div class="echarts-area">
                     <!--<div class="wc-back-image"></div>-->
-                    <div id="map" :style="{height:'100%',width:'100%'}" ref="map"></div>
+                    <div id="map" ref="map"></div>
                     <!--<div id="bgmap" ref="bgmap"></div>-->
                   </div>
                 </div>
               </div>
             </div>
-            <div class="liu-fang">
-              <div class="box box-solid">
-                <div class="box-header bg-aqua">流芳校区漏损导图</div>
-                <div class="box-body">
-                  <img class="wc-back-image" src="../../../static/images/LF.png" alt="">
-                  <div class="echarts-area">
-                    <!--<div class="lf-back-image"></div>-->
-                    <div id="mapL" :style="{height:'100%',width:'100%'}" ref="mapL"></div>
-                    <!--<div id="bgmapL" :style="{height:'100%',width:'100%'}" ref="bgmapL"></div>-->
-                  </div>
-                </div>
-              </div>
-            </div>
+<!--            <div class="liu-fang">-->
+<!--              <div class="box box-solid">-->
+<!--                <div class="box-header bg-aqua">流芳校区漏损导图</div>-->
+<!--                <div class="box-body">-->
+<!--                  <img class="wc-back-image" src="../../../static/images/LF.png" alt="">-->
+<!--                  <div class="echarts-area">-->
+<!--                    &lt;!&ndash;<div class="lf-back-image"></div>&ndash;&gt;-->
+<!--                    <div id="mapL" :style="{height:'100%',width:'100%'}" ref="mapL"></div>-->
+<!--                    &lt;!&ndash;<div id="bgmapL" :style="{height:'100%',width:'100%'}" ref="bgmapL"></div>&ndash;&gt;-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
           </div>
         </div>
       </div>

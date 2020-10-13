@@ -32,16 +32,16 @@
                 </div>
               </div>
             </div>
-            <div class="liu-fang">
-              <div class="box box-solid">
-                <div class="box-header bg-aqua">流芳校区漏损导图</div>
-                <div class="box-body">
-                  <div class="area-map">
-                    <div id="mapL" :style="{height:'100%',width:'100%'}" ref="mapL"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
+<!--            <div class="liu-fang">-->
+<!--              <div class="box box-solid">-->
+<!--                <div class="box-header bg-aqua">流芳校区漏损导图</div>-->
+<!--                <div class="box-body">-->
+<!--                  <div class="area-map">-->
+<!--                    <div id="mapL" :style="{height:'100%',width:'100%'}" ref="mapL"></div>-->
+<!--                  </div>-->
+<!--                </div>-->
+<!--              </div>-->
+<!--            </div>-->
           </div>
         </div>
       </div>
