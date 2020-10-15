@@ -52,7 +52,7 @@
         title: '水表日最小流量检测数据',
         startTime: '',
         endTime: '',
-        meterId: 9,
+        meterId: 1,
         xData: [],
         yData: [],
         show: false,

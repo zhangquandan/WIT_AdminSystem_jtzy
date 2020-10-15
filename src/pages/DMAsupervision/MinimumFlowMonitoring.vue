@@ -54,7 +54,7 @@
         title: 'DMA日最小流量检测数据',
         startTime: '',
         endTime: '',
-        regionId: 53,
+        regionId: 1,
         xData: [],
         yData: [],
         show: false,

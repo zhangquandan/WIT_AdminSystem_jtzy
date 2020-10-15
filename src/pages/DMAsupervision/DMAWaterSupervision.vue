@@ -48,7 +48,7 @@
     name: "d-m-a-water-supervision",
     data() {
       return {
-        regionId: 53,
+        regionId: 1,
         start: '',
         end: '',
         compareStart: '',

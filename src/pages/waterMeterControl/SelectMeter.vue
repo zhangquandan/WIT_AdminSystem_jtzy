@@ -18,7 +18,7 @@
       data() {
         return {
           options: [],
-          value: 9,
+          value: 1,
         }
       },
       created() {

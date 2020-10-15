@@ -53,11 +53,13 @@
   width: 100%;
   display: inline-flex;
   justify-content: space-between;
+
+
 }
 
 .wu-chang {
   height: 100%;
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-flow: column;
 }
@@ -145,6 +147,8 @@
   -ms-filter: blur(3px);
   filter: blur(3px);*/
   position: absolute;
+  left:25%;
+  text-align: center;
   /*top: 58px;
   left: 25px;*/
 }

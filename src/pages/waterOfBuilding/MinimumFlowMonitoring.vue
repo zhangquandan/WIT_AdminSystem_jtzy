@@ -54,7 +54,7 @@
         title: '建筑日最小流量检测数据',
         startTime: '',
         endTime: '',
-        buildingId: 137,
+        buildingId: 1,
         xData: [],
         yData: [],
         show: false,

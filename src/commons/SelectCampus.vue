@@ -39,6 +39,7 @@
         /*获取所有区域列表*/
         refresh(){
           this.$api.regionInf.findAll().then(res => {
+            console.log(res)
             this.result = res;
             let options = [];
             res.forEach((item) => {
@@ -50,6 +51,7 @@
               }
             })
             this.options = options;
+            console.log(this.options)
           })
         },
         /*选择校区触发*/

@@ -48,7 +48,7 @@
     name: "building-water-supervision",
     data() {
       return {
-        buildingId: 137,
+        buildingId: 1,
         start: '',
         end: '',
         compareStart: '',
