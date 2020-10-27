@@ -106,8 +106,8 @@
             if (res.status == 200) {
               localStorage.setItem("access_token", res.data);
               //this.router.push('/SystemNavigation');
-              this.router.push('/WaterPublicity/WaterSurvey');
-              // window.location.href = "http://47.110.33.227:8280/project"
+              // this.router.push('/WaterPublicity/WaterSurvey');
+              window.location.href = "http://47.110.33.227:8280/project"
             } else {
               this.$message({
                 type: 'error',
