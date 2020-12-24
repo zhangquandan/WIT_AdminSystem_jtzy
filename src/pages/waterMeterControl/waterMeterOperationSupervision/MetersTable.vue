@@ -89,7 +89,7 @@
             lng = res.tag.substring(1,res.tag.length-1).split(',')[0];
             lat = res.tag.substring(1,res.tag.length-1).split(',')[1];
             this.$router.push({
-              path:'/TestGL',
+              path:'/BmapGL',
               query:{
                 marker : {lng:lng,lat:lat} ,
                 info : info ,
